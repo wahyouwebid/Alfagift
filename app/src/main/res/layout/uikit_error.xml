@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/_16sdp">
+
+    <TextView
+        android:id="@+id/tv_title_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/title_error"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="@+id/progress_bar"
+        app:layout_constraintStart_toStartOf="@+id/progress_bar"
+        app:layout_constraintTop_toBottomOf="@+id/progress_bar" />
+
+    <TextView
+        android:id="@+id/tv_message_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/title_error"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="@dimen/_14ssp"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:textColor="@color/colorTextSecondary"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_error"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_retry"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_try_again"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_rounded_health"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_message_error"
+        app:layout_constraintStart_toStartOf="@+id/tv_message_error"
+        app:layout_constraintEnd_toEndOf="@+id/tv_message_error"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</LinearLayout>

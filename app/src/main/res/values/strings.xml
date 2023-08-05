@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Alfagift</string>
+    <string name="title_content_description">ImageView</string>
+    <string name="title_search">Cari berita yang anda inginkan</string>
+    <string name="title_search_source">Cari source berita yang anda inginkan</string>
+    <string name="title_data_empty">Data is empty</string>
+    <string name="title_error">There is an error</string>
+    <string name="title_error_no_internet">No Internet connection</string>
+    <string name="title_try_again">Try Again</string>
+    <string name="title_error_des">You have requested too many results. Developer accounts are limited to a max of 100 results. You are trying to request results 100 to 120. Please upgrade to a paid plan if you need more results.</string>
+    <string name="title_error_no_internet_des">Please check your internet connection</string>
 </resources>

@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#594DA7</color>
+    <color name="colorPrimaryDark">#594DA7</color>
+    <color name="colorPrimaryLight">#A9A2DC</color>
+    <color name="colorAccent">#77D29F</color>
+    <color name="colorSecondary">#CFCFCF</color>
+    <color name="colorTextPrimary">#FF000000</color>
+    <color name="colorTextSecondary">#8E8E8E</color>
+    <color name="colorBackground">#F7FAFC</color>
+
+    <color name="colorBusiness">#FFB74D</color>
+    <color name="colorEntertainment">#81C784</color>
+    <color name="colorHealth">#E57373</color>
+    <color name="colorScience">#BA68C8</color>
+    <color name="colorSport">#F06292</color>
+    <color name="colorTech">#64B5F6</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#D5D5D5</color>
 </resources>

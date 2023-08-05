@@ -1,0 +1,39 @@
+[
+    {
+        "id": "business",
+        "title": "Business",
+        "icon": "ic_business",
+        "color": "bg_rounded_business"
+    },
+    {
+        "id": "science",
+        "title": "Science",
+        "icon": "ic_science",
+        "color": "bg_rounded_science"
+    },
+    {
+        "id": "entertainment",
+        "title": "Entertainment",
+        "icon": "ic_entertainment",
+        "color": "bg_rounded_entertainment"
+    },
+    {
+        "id": "health",
+        "title": "Health",
+        "icon": "ic_health",
+        "color": "bg_rounded_health"
+    },
+    {
+        "id": "sport",
+        "title": "Sport",
+        "icon": "ic_sports",
+        "color": "bg_rounded_sports"
+    },
+    {
+        "id": "technology",
+        "title": "Technology",
+        "icon": "ic_technology",
+        "color": "bg_rounded_technology"
+
+    }
+]
