@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Alfagift"
+rootProject.name = "NewsApi"
 include(":app")

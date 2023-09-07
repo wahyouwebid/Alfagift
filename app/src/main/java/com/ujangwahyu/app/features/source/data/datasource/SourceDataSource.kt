@@ -6,7 +6,7 @@ import com.ujangwahyu.app.features.source.domain.repository.SourceRepository
 import io.reactivex.rxjava3.core.Observable
 import javax.inject.Inject
 
-class SourceDataSource@Inject constructor(
+class SourceDataSource @Inject constructor(
     private val apiService: SourceApiService,
 ): SourceRepository {
 

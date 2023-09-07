@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Alfagift</string>
+    <string name="app_name">News Api</string>
     <string name="title_content_description">ImageView</string>
     <string name="title_search">Cari berita yang anda inginkan</string>
     <string name="title_search_source">Cari source berita yang anda inginkan</string>
